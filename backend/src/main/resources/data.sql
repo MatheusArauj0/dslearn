@@ -21,3 +21,5 @@ INSERT INTO tb_offer (edition, start_moment, end_moment, course_id) VALUES ('1.0
 INSERT INTO tb_resource (title, description, position, img_uri, type, offer_id) VALUES ('Trilha HTML','Trilha principal do curso',1 ,'https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2021/04/Curso-online.jpg', 1, 1);
 INSERT INTO tb_resource (title, description, position, img_uri, type, offer_id) VALUES ('Forum','Tire suas duvidas',2 ,'https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2021/04/Curso-online.jpg', 2, 1);
 INSERT INTO tb_resource (title, description, position, img_uri, type, offer_id) VALUES ('Lives','Lives exclusivas para a turma',3 ,'https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2021/04/Curso-online.jpg', 0, 1);
+
+INSERT INTO tb_section (title, description, position, img_uri, resource_id, prerequisite_id) VALUES ('Capitulo 1', 'Neste capitlo vamos começar', '1','https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2021/04/Curso-online.jpg', 1, null);
